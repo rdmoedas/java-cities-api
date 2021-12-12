@@ -18,3 +18,7 @@ Banco Postgress rodando em docker.
 <code>
     docker run --name cities-db -d -p 5432:5432 -e POSTGRES_USER=postgres_user_city -e POSTGRES_PASSWORD=super_password -e POSTGRES_DB=cities postgres
 </code>
+
+Dados utilizados com dados de Paises, estados brasileiros e cidades do Brasil
+https://github.com/chinnonsantos/sql-paises-estados-cidades/tree/master/PostgreSQL
+
